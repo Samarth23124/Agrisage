@@ -1,0 +1,23 @@
+{
+  "name": "annadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "cd NodeBackend && npm install",
+    "install-frontend": "cd ReactWebsite && npm install",
+    "install-concurrently": "npm install -g concurrently",
+    "install-dep": "npm run install-backend && npm run install-frontend",
+    "install-all": "npm run install-dep && npm run install-concurrently",
+    "backend": "cd NodeBackend && nodemon app.js",
+    "frontend": "cd ReactWebsite && npm start ",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+  },
+  "author": "Aman Dwivedi",
+  "license": "MIT",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

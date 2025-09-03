@@ -35,20 +35,19 @@ class AppNavbar extends React.Component {
     const { isAuthenticated, user } = this.props.auth;
 
     const authLinks = (
-      <div className="nav-fragment">
-        <NavItem>
-          <span className="navbar-text mr-3">
-            <strong>
-              {user ? `${user.name.split(' ').slice(0, -1).join(' ')}` : null}
-            </strong>
-          </span>
-        </NavItem>
-        <NavItem>
-          <Logout />
-        </NavItem>
-      </div>
-    );
-
+  <div className="nav-fragment">
+    <NavItem>
+      <span className="navbar-text mr-3">
+        <strong>
+          {user && user.name ? `${user.name.split(' ').slice(0, -1).join(' ')}` : null}
+        </strong>
+      </span>
+    </NavItem>
+    <NavItem>
+      <Logout />
+    </NavItem>
+  </div>
+);
     const guestLinks = (
       <div className="nav-fragment">
         <NavItem>
@@ -63,7 +62,7 @@ class AppNavbar extends React.Component {
       <div>
         <Navbar color="dark" dark expand="sm" className="mb-5 navbar-main">
           <Container>
-            <NavbarBrand href="/">Annadata</NavbarBrand>
+            <NavbarBrand href="/">Agrisage</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <NavLink href="/about" className="nav-link first-nav">

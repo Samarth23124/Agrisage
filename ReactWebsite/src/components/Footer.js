@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer-distributed">
       <div className="footer-left">
         <h3>
-          Anna<span>data</span>
+          Agri<span>sage</span>
         </h3>
 
         <p className="footer-links">
@@ -27,14 +27,14 @@ const Footer = () => {
           <a href="/community">Community</a>
         </p>
 
-        <p className="footer-company-name">Annadata © 2025</p>
+        <p className="footer-company-name">Agrisage © 2025</p>
       </div>
 
       <div className="footer-center">
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            <span>VIT BHOPAL UNIVERSITY</span> Sehore, Madhya Pradesh
+            <span>Vellore Institute of Technology</span> Bhopal, Madhya Pradesh
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
         <div>
           <i className="fa fa-envelope"></i>
           <p>
-            <a href="mailto:help.annadata@gmail.com">help.annadata@gmail.com</a>
+            <a href="mailto:help.agrisage@gmail.com">help.agrisage@gmail.com</a>
           </p>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="footer-right">
         <p className="footer-company-about">
           <span>About the company</span>
-          Complete Farming support for the backbone of out nation, our Annadata
+          Complete Farming support for the backbone of out nation, our Agrisage
         </p>
 
         <div className="footer-icons">

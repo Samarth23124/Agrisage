@@ -24,7 +24,7 @@ const About = () => {
         <div>
           <h6>
             We are a dynamic group of people dedicated to serve the backbone of
-            our nation, our Annadata. to ensure that they get benefitted from
+            our nation, our Agrisage. to ensure that they get benefitted from
             the very best technology available in modern times and take benefit
             of modern technologies which would enable them to grow more and more{' '}
           </h6>
@@ -82,7 +82,7 @@ const About = () => {
               marginTop: '2rem',
             }}
           >
-            <strong> How Annadata Works </strong>
+            <strong> How Agrisage Works </strong>
           </h3>
           <Row style={{ marginTop: '3rem', marginBottom: '3rem' }}>
             <Col>

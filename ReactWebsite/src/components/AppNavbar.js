@@ -39,7 +39,9 @@ class AppNavbar extends React.Component {
         <NavItem>
           <span className="navbar-text mr-3">
             <strong>
-              {user && user.name ? user.name.split(' ').slice(0, -1).join(' ') : null}
+              {user && user.name
+                ? user.name.split(' ').slice(0, -1).join(' ')
+                : null}
             </strong>
           </span>
         </NavItem>

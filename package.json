@@ -13,9 +13,9 @@
     "frontend": "cd ReactWebsite && npm start ",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
     "start": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+    "build": "cd ReactWebsite && npm install && npm run build"
   },
-  "author": "Aman Dwivedi",
+  "author": "Samarth Saxena",
   "license": "MIT",
   "dependencies": {
     "react-scripts": "^5.0.1"
